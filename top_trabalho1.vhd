@@ -1,0 +1,58 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+use ieee.std_logic_arith.all;
+
+entity top_trabalho1 is
+    port(
+        clock : in std_logic
+    );
+end entity;
+
+architecture behavior of top_trabalho1 is
+    component trabalho1 is
+        port(
+            clock: in std_logic;
+            reset: in std_logic;
+            count_load: in std_logic;
+            en_ULA : in std_logic;
+            Z_out : out std_logic;
+            N_out : out std_logic;
+            dec_out : out std_logic_vector(3 downto 0)
+        );
+    end component;
+
+    component trabalho1_fsm is
+        port(
+            clock: in std_logic;
+            reset: out std_logic;
+            count_load: out std_logic;
+            en_ULA : out std_logic;
+            Z_out : in std_logic;
+            N_out : in std_logic;
+            dec_out : in std_logic_vector(3 downto 0)
+        );
+    end component;
+    signal reset : std_logic:='1';
+    signal count_load, en_ULA, Z_out, N_out : std_logic;
+    signal dec_out : std_logic_vector(3 downto 0);
+begin
+    trabalho1_inst : trabalho1 port map(
+        clock => clock,
+        reset => reset,
+        count_load => count_load,
+        en_ULA => en_ULA,
+        Z_out => Z_out,
+        N_out => N_out,
+        dec_out => dec_out
+    );
+    trabalho1_fsm_inst : trabalho1_fsm port map(
+        clock => clock,
+        reset => reset,
+        count_load => count_load,
+        en_ULA => en_ULA,
+        Z_out => Z_out,
+        N_out => N_out,
+        dec_out => dec_out
+    );
+end architecture;

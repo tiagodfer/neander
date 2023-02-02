@@ -1,0 +1,116 @@
+{/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity trabalho1
+-- Compiling architecture behavior of trabalho1
+
+} {} {}} {{/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1.vhd}} {1 {vcom -work work -2002 -explicit {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+Start time: 23:47:51 on Jan 31,2023
+vcom -reportprogress 300 -work work -2002 -explicit /media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity trabalho1
+-- Compiling architecture behavior of trabalho1
+End time: 23:47:52 on Jan 31,2023, Elapsed time: 0:00:01
+
+} {} {}} {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1_FSM.vhd} {1 {vcom -work work -2008 -explicit -stats=none {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1_FSM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity trabalho1_FSM
+-- Compiling architecture behavior of trabalho1_FSM
+
+} {} {}} {{/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_topo.vhd}} {1 {vcom -work work -2002 -explicit {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_topo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+Start time: 23:47:49 on Jan 31,2023
+vcom -reportprogress 300 -work work -2002 -explicit /media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_topo.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity tb_top
+-- Compiling architecture behavior of tb_top
+End time: 23:47:50 on Jan 31,2023, Elapsed time: 0:00:01
+
+} {} {}} {{/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1_FSM.vhd}} {1 {vcom -work work -2008 -explicit {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1_FSM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+Start time: 23:47:52 on Jan 31,2023
+vcom -reportprogress 300 -work work -2008 -explicit /media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/trabalho1_FSM.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity trabalho1_FSM
+-- Compiling architecture behavior of trabalho1_FSM
+End time: 23:47:53 on Jan 31,2023, Elapsed time: 0:00:01
+
+} {} {}} {{/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_trabalho1.vhd}} {1 {vcom -work work -2008 -explicit {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_trabalho1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+Start time: 22:20:33 on Jan 31,2023
+vcom -reportprogress 300 -work work -2008 -explicit /media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_trabalho1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity tb_trabalho1
+-- Compiling architecture behavior of tb_trabalho1
+End time: 22:20:34 on Jan 31,2023, Elapsed time: 0:00:01
+
+} {} {}} {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_topo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_topo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity tb_top
+-- Compiling architecture behavior of tb_top
+
+} {} {}} {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_trabalho1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/tb_trabalho1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity tb_trabalho1
+-- Compiling architecture behavior of tb_trabalho1
+
+} {} {}} {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/top_trabalho1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/top_trabalho1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity top_trabalho1
+-- Compiling architecture behavior of top_trabalho1
+
+} {} {}} {{/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/top_trabalho1.vhd}} {1 {vcom -work work -2002 -explicit {/media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/top_trabalho1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+Start time: 23:47:50 on Jan 31,2023
+vcom -reportprogress 300 -work work -2002 -explicit /media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/top_trabalho1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity top_trabalho1
+-- Compiling architecture behavior of top_trabalho1
+End time: 23:47:51 on Jan 31,2023, Elapsed time: 0:00:01
+
+} {} {}}

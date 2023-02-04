@@ -146,3 +146,5 @@ begin
     end process;
 
 end behavior;
+
+-- make an explanation of the code here

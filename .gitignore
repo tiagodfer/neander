@@ -1,0 +1,7 @@
+# ignore files with these extensions
+*.mti
+*.mpf
+*.wlf
+
+# ignore the "work" folder
+work/

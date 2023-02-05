@@ -9,8 +9,8 @@ end entity;
 architecture behavior of tb_topo is
     component top_trabalho1 is
         port(
-            clock : in std_logic;
-				reset : in std_logic
+         clock : in std_logic;
+			reset : in std_logic
         );
     end component;
 
@@ -19,7 +19,7 @@ architecture behavior of tb_topo is
 begin
     top_inst : top_trabalho1 port map(
         clock => clock_sg,
-		  reset => reset_sg
+		reset => reset_sg
     );
 	 reset_sg <= '0' after 5 ns;
     clock_sg <= not clock_sg after 10 ns;

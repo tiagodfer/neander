@@ -124,7 +124,7 @@ begin
         end if;
     end process;
 
-    -- NZ signals
+    -- NZ
     Z_out <= Z;
     N_out <= N;
 

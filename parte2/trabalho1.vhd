@@ -11,6 +11,7 @@ entity trabalho1 is
         en_ULA : in std_logic;
         Z_out : out std_logic;
         N_out : out std_logic;
+		  ACC_out : out std_logic_vector (3 downto 0);
         dec_out : out std_logic_vector(3 downto 0)
     );
 end trabalho1;

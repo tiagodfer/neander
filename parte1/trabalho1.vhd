@@ -16,56 +16,38 @@ entity trabalho1 is
 end trabalho1;
 
 architecture behavior of trabalho1 is
-    component LUT_ULA is
-        port(
-            input_1  : in std_logic_vector(3 downto 0);
-            input_2  : in std_logic_vector(3 downto 0);
-            ULA_sel   : in std_logic_vector(1 downto 0);
-            output_1 : out std_logic_vector(3 downto 0)
-            );
-    end component;
-type mem is array (0 to 15) of std_logic_vector(7 downto 0);
-signal PC : std_logic_vector(3 downto 0):= "0000";
-signal RDM : std_logic_vector(7 downto 0);
-signal add : std_logic_vector(3 downto 0);
-signal sub : std_logic_vector(3 downto 0);
-signal mult : std_logic_vector(7 downto 0); -- lembrar de fazer o resize
-signal mux_ULA : std_logic_vector(3 downto 0);
-signal comp : std_logic;
-signal Z : std_logic;
-signal ACC : std_logic_vector(3 downto 0);
-signal N : std_logic;
-signal decoder : std_logic_vector(3 downto 0);
-signal RAM : mem := (
-    "00000001",
-    "00010010",
-    "00100011",
-    "00110100",
-    "01000100",
-    "01010110",
-    "01100111", 
-    "00000000",
-    -- "00000000",
-    -- "00000000",
-    -- "00000000",
-    -- "00000000",
-    "00000000",
-    "00000000",
-    "00000000",
-    "00000000",
-    "00000000",
-    "00000000",
-    "00000000",
-    "00000000"
+    type mem is array (0 to 15) of std_logic_vector(7 downto 0);
+    signal PC : std_logic_vector(3 downto 0):= "0000";
+    signal RDM : std_logic_vector(7 downto 0);
+    signal add : std_logic_vector(3 downto 0);
+    signal sub : std_logic_vector(3 downto 0);
+    signal mult : std_logic_vector(7 downto 0);
+    signal mux_ULA : std_logic_vector(3 downto 0);
+    signal comp : std_logic;
+    signal Z : std_logic;
+    signal ACC : std_logic_vector(3 downto 0);
+    signal N : std_logic;
+    signal decoder : std_logic_vector(3 downto 0);
+    signal RAM : mem := (
+        "00000001",
+        "00010010",
+        "00100011",
+        "00110100",
+        "01000101",
+        "01010110",
+        "01100111", 
+        "00000000",
+        "00000000",
+        "00000000",
+        "00000000",
+        "00000000",
+        "00000000",
+        "00000000",
+        "00000000",
+        "00000000"
 );
+
 begin
--- LUT_ULA
-    inst_ULA: LUT_ULA port map(
-        input_1 => ACC,
-        input_2 => RDM(3 downto 0),
-        ULA_sel => RDM(5 downto 4),
-        output_1 => mux_ULA
-    );
     -- PC
     process(clock, reset)
     begin
@@ -90,8 +72,29 @@ begin
         end if;
     end process;
 
+    -- add
+    add <= ACC + RDM(3 downto 0);
+
+    -- sub
+    sub <= ACC - RDM(3 downto 0);
+
+    -- mult
+    mult <= ACC * RDM(3 downto 0);
+
     -- decoderOut
     dec_out <= decoder;
+
+    -- mux_ULA
+    mux_ULA <= RDM(3 downto 0) when RDM(5 downto 4) = "00" else
+               add when RDM(5 downto 4) = "01" else
+               sub when RDM(5 downto 4) = "10" else
+               mult(3 downto 0) when RDM(5 downto 4) = "11" else
+               not(RDM(3 downto 0)) + '1' when RDM(3) = '1' else
+               not(add) + '1' when add(3) = '1' else
+               not(sub) + '1' when sub(3) = '1' else
+               not(mult(3 downto 0)) + '1' when mult(3) = '1' else
+               "0000";
+
 
     -- comp
     comp <= '1' when mux_ULA = "0000" else
@@ -120,6 +123,8 @@ begin
             end if;
         end if;
     end process;
+
+    -- NZ
     Z_out <= Z;
     N_out <= N;
 
@@ -137,5 +142,4 @@ begin
             when others => decoder <= "0000";
         end case;
     end process;
-
 end behavior;

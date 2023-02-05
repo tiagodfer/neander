@@ -9,6 +9,7 @@ entity trabalho1 is
         reset: in std_logic;
         count_load: in std_logic;
         en_ULA : in std_logic;
+		  ACC_out : out std_logic_vector (3 downto 0);
         Z_out : out std_logic;
         N_out : out std_logic;
         dec_out : out std_logic_vector(3 downto 0)
@@ -124,9 +125,10 @@ begin
         end if;
     end process;
 
-    -- NZ
+    -- NZ e ACC
     Z_out <= Z;
     N_out <= N;
+	 ACC_out <= ACC;
 
     -- decoder
     process(RDM)

@@ -7,7 +7,7 @@ entity trabalho1_FSM is
 
     port(
         clock: in std_logic;
-        reset: out std_logic;
+        reset: in std_logic;
         count_load: out std_logic;
         en_ULA : out std_logic;
         Z_out : in std_logic;
@@ -65,13 +65,13 @@ architecture behavior of trabalho1_FSM is
         begin
             case next_state is
                 when PCpp =>
-                    reset <= '1';
+                    --reset <= '1';
                     count_load <= '1';
                 when ULA =>
-                    reset <= '1';
+                    --reset <= '1';
                     en_ULA <= '1';
                 when jmp =>
-                    reset <= '1';
+                    --reset <= '1';
                     count_load <= '0';
                     en_ULA <= '0';
             end case;

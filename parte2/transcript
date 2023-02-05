@@ -1,0 +1,229 @@
+# Loading project trabalo1_pt2
+# Errors: 0, Warnings: 0
+# Compile of LUT_ULA.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of tb_trabalho1.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of top_trabalho1.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of trabalho1.vhd was successful.
+# All compile dependencies have been resolved.vsim work.tb_trabalho1
+# vsim work.tb_trabalho1 
+# Start time: 16:33:57 on Feb 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.tb_trabalho1(behavior)
+# Loading work.trabalho1(behavior)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.lut_ula(behaviour)
+# ** Fatal: (vsim-3348) Port length (8) does not match actual length (4) for port "/tb_trabalho1/inst_top/inst_ULA/output_1".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_trabalho1/inst_top/inst_ULA File: /media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/parte2/LUT_ULA.vhd Line: 12
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:33:58 on Feb 05,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of LUT_ULA.vhd was successful.
+# Compile of tb_trabalho1.vhd was successful.
+# Compile of top_trabalho1.vhd was successful.
+# Compile of trabalho1.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb_trabalho1
+# vsim work.tb_trabalho1 
+# Start time: 16:35:01 on Feb 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.tb_trabalho1(behavior)
+# Loading work.trabalho1(behavior)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.lut_ula(behaviour)
+# ** Fatal: (vsim-3348) Port length (8) does not match actual length (4) for port "/tb_trabalho1/inst_top/inst_ULA/output_1".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_trabalho1/inst_top/inst_ULA File: /media/rafael/Mint-HD/Sistemas Digitais/Trabalho1/parte2/LUT_ULA.vhd Line: 12
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:35:01 on Feb 05,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of LUT_ULA.vhd was successful with warnings.
+# Compile of tb_trabalho1.vhd was successful.
+# Compile of top_trabalho1.vhd was successful.
+# Compile of trabalho1.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of LUT_ULA.vhd was successful.
+vsim work.tb_trabalho1
+# vsim work.tb_trabalho1 
+# Start time: 16:40:01 on Feb 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.tb_trabalho1(behavior)
+# Loading work.trabalho1(behavior)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.lut_ula(behaviour)
+add wave -position insertpoint sim:/tb_trabalho1/inst_top/*
+run 120 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_trabalho1/inst_top
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_trabalho1/inst_top/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_trabalho1/inst_top/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_trabalho1/inst_top/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_trabalho1/inst_top/inst_ULA
+# Compile of LUT_ULA.vhd was successful.
+# Compile of tb_trabalho1.vhd was successful.
+# Compile of top_trabalho1.vhd was successful.
+# Compile of trabalho1.vhd was successful.
+# Compile of tb_topo.vhd was successful.
+# Compile of trabalho1_FSM.vhd failed with 2 errors.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of LUT_ULA.vhd was successful.
+# Compile of tb_trabalho1.vhd was successful.
+# Compile of top_trabalho1.vhd was successful.
+# Compile of trabalho1.vhd was successful.
+# Compile of tb_topo.vhd was successful.
+# Compile of trabalho1_FSM.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.tb_top
+# End time: 16:43:24 on Feb 05,2023, Elapsed time: 0:03:23
+# Errors: 0, Warnings: 12
+# vsim work.tb_top 
+# Start time: 16:43:24 on Feb 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.tb_top(behavior)
+# Loading work.top_trabalho1(behavior)
+# Loading work.trabalho1(behavior)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.lut_ula(behaviour)
+# Loading work.trabalho1_fsm(behavior)
+add wave -position insertpoint sim:/tb_top/top_inst/trabalho1_inst/*
+add wave -position insertpoint sim:/tb_top/top_inst/trabalho1_fsm_inst/*
+run 120 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 15 ns  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+RESTART
+# invalid command name "RESTART"
+# Compile of trabalho1.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.trabalho1(behavior)
+run 120 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 15 ns  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# Compile of trabalho1_FSM.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.trabalho1_fsm(behavior)
+run 120 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_fsm_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_top/top_inst/trabalho1_inst/inst_ULA
